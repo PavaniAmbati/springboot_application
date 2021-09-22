@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class GreetingResource {
 	
 	//URI ----- localhost:8080/
-	@RequestMapping("/")
+	@RequestMapping("/hello")
 	public String greetings() {
 		return "Hello ! Spring Boot";
 	}
